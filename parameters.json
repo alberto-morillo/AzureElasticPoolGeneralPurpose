@@ -1,0 +1,150 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "morillo"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "databaseName": {
+            "value": "ElasticDatabase"
+        },
+        "serverName": {
+            "value": "srvmorilloelastic"
+        },
+        "serverLocation": {
+            "value": "eastus"
+        },
+        "elasticPoolName": {
+            "value": "morilloelasticpool"
+        },
+        "sampleName": {
+            "value": ""
+        },
+        "tier": {
+            "value": "GeneralPurpose"
+        },
+        "skuName": {
+            "value": "GP_Gen5"
+        },
+        "poolLimit": {
+            "value": "2"
+        },
+        "poolSize": {
+            "value": 34359738368
+        },
+        "perDatabasePerformanceMin": {
+            "value": "0"
+        },
+        "perDatabasePerformanceMax": {
+            "value": "2"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "licenseType": {
+            "value": "LicenseIncluded"
+        },
+        "enableADS": {
+            "value": false
+        },
+        "allowAzureIps": {
+            "value": true
+        },
+        "allowClientIp": {
+            "value": true
+        },
+        "clientIpValue": {
+            "value": "190.167.218.49"
+        },
+        "databaseTags": {
+            "value": {}
+        },
+        "serverTags": {
+            "value": {}
+        },
+        "elasticPoolTags": {
+            "value": {}
+        },
+        "enableVA": {
+            "value": false
+        },
+        "useVAManagedIdentity": {
+            "value": false
+        },
+        "enablePrivateEndpoint": {
+            "value": false
+        },
+        "privateEndpointNestedTemplateId": {
+            "value": "pe-f6b139c2-d2ef-4627-930f-9af7c6385014"
+        },
+        "privateEndpointSubscriptionId": {
+            "value": ""
+        },
+        "privateEndpointResourceGroup": {
+            "value": ""
+        },
+        "privateEndpointName": {
+            "value": ""
+        },
+        "privateEndpointLocation": {
+            "value": ""
+        },
+        "privateEndpointSubnetId": {
+            "value": ""
+        },
+        "privateLinkServiceName": {
+            "value": ""
+        },
+        "privateLinkServiceServiceId": {
+            "value": ""
+        },
+        "privateEndpointVnetSubscriptionId": {
+            "value": ""
+        },
+        "privateEndpointVnetResourceGroup": {
+            "value": ""
+        },
+        "privateEndpointVnetName": {
+            "value": ""
+        },
+        "privateEndpointSubnetName": {
+            "value": ""
+        },
+        "enablePrivateDnsZone": {
+            "value": true
+        },
+        "privateLinkPrivateDnsZoneFQDN": {
+            "value": "privatelink.database.windows.net"
+        },
+        "privateEndpointDnsRecordUniqueId": {
+            "value": "f6b139c2-d2ef-4627-930f-9af7c6385017"
+        },
+        "privateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01557135/DeploymentTemplates/PrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01557135/DeploymentTemplates/PrivateDnsForPrivateEndpoint.json"
+        },
+        "privateDnsForPrivateEndpointNicTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01557135/DeploymentTemplates/PrivateDnsForPrivateEndpointNic.json"
+        },
+        "privateDnsForPrivateEndpointIpConfigTemplateLink": {
+            "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01557135/DeploymentTemplates/PrivateDnsForPrivateEndpointIpConfig.json"
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-2021-4-21_19-51-13"
+        },
+        "storageAccountType": {
+            "value": ""
+        },
+        "maintenanceConfigurationId": {
+            "value": "/subscriptions/58a57531-e05d-4a82-873e-d352574c9992/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default"
+        }
+    }
+}
